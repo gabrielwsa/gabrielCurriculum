@@ -1,8 +1,8 @@
-<h2 align="left">Hola👋🏻! Soy Renato Mitsuhiro Hirakawa Eiwa</h2>
+<h2 align="left">mi portafolio web</h2>
 
 ###
 
-<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack.</p>
+<p align="left">Curando Análisis de Sistemas Informáticos y Desarrollador Full Stack.</p>
 
 ###
 
@@ -19,7 +19,7 @@
 ###
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/renatohirakawa/" target="_blank">
+  <a href="https://github.com/gabrielwsa" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  /></a>
   <a href="https://www.instagram.com/mitsuhiro_eiwa/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  /></a>
