@@ -19,23 +19,26 @@ import Certificated from "@/components/icons/Certificated.astro"
 <Layout
   title="Porfolio de Gabriel W. Silva - Cursando Análisis de Sistemas Informáticos y Desarrollador Full Stack"
   description="Gabriel W. Silva - Cursando Análisis de Sistemas Informáticos y Desarrollador Full Stack">
-  <main class="px-4">
-    <SectionContainer class="py-16 md:py-36" id="inicio">
+  <main class="px-4 max-w-7xl mx-auto">
+    <SectionContainer class="py-24 md:py-36 relative" id="inicio">
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 dark:from-gray-900/50 dark:to-gray-800/50 -z-10"></div>
       <Hero>
       </slot>
     </Hero>
     </SectionContainer>
-    <div class="space-y-24">
-      <SectionContainer id="experiencia">
-        <TitleSection>
+    <div class="space-y-32">
+      <SectionContainer id="experiencia" class="relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-gray-50/50 to-white/50 dark:from-gray-900/50 dark:to-gray-800/50 -z-10 rounded-3xl"></div>
+        <TitleSection class="mb-12">
           <Briefcase class="size-8" />
           Experiencia laboral
         </TitleSection>
         <Experience />
       </SectionContainer>
       
-      <SectionContainer id="proyectos">
-        <TitleSection>
+      <SectionContainer id="proyectos" class="relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 dark:from-gray-900/50 dark:to-gray-800/50 -z-10 rounded-3xl"></div>
+        <TitleSection class="mb-12">
           <Device class="size-7" />
           Proyectos
         </TitleSection>
@@ -50,8 +53,9 @@ import Certificated from "@/components/icons/Certificated.astro"
         <Technologies />
       </SectionContainer> -->
 
-      <SectionContainer id="Certificados">
-        <TitleSection>
+      <SectionContainer id="Certificados" class="relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-gray-50/50 to-white/50 dark:from-gray-900/50 dark:to-gray-800/50 -z-10 rounded-3xl"></div>
+        <TitleSection class="mb-12">
           <Certificated class="size-7" />
           Certificados
         </TitleSection>
