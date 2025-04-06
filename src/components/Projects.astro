@@ -14,16 +14,6 @@ import Arduino from "./icons/Arduino.astro"
 import Python from "./icons/Python.astro"
 
 const TAGS = {
-  /* NEXT: {
-    name: "Next.js",
-    class: "bg-black text-white",
-    icon: NextJS,
-  },
-  TAILWIND: {
-    name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
-    icon: Tailwind,
-  }, */
   LARAVEL: {
     name: "Laravel",
     class: "bg-red-950 text-white",
@@ -74,6 +64,15 @@ const PROJECTS = [
     github: "https://github.com/gabrielwsa/PokemonAPI-with-React",
     image: "/projects/ProyectoPokemon.png",
     tags: [TAGS.REACT],
+  },
+  {
+    title: "API giphy",
+    description:
+      "Integracion de API de Giphy, con el fin de obtener datos de los gifs y mostrarlos en una pagina web.",
+    link: "https://gif-api-react.vercel.app/",
+    github: "https://github.com/gabrielwsa/gif-api-React",
+    image: "/projects/GifExpertApp.png",
+    tags: [TAGS.REACT],
   }
 ]
 ---
@@ -81,10 +80,10 @@ const PROJECTS = [
 <div class="flex flex-col gap-y-16">
   {
     PROJECTS.map(({ image, title, description, tags, link, github }) => (
-    <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+    <article class="flex flex-col space-x-0 space-y-8 md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full md:w-1/2">
-    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="Proyecto" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl lg:border lg:border-gray-800 lg:bg-gray-800/50">
+      <img alt="Proyecto" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110" loading="lazy" src={image} />
     </div>
   </div>
 

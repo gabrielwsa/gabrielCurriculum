@@ -6,6 +6,7 @@ const certificationsCollection = defineCollection({
     title: z.string(),
     description: z.string(),
     file: z.string(),
+    hours: z.string(),
   }),
 });
 
