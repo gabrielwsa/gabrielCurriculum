@@ -12,6 +12,8 @@ import TitleSection from "@/components/TitleSection.astro"
 import Technologies from "@/components/Technologies.astro"
 import ProfileCheck from "@/components/icons/ProfileCheck.astro"
 import AboutMe from "@/components/AboutMe.astro"
+import Certifications from "@/components/Certifications.astro"
+import Certificated from "@/components/icons/Certificated.astro"
 ---
 
 <Layout
@@ -40,12 +42,20 @@ import AboutMe from "@/components/AboutMe.astro"
         <Projects />
       </SectionContainer>
 
-      <SectionContainer id="tecnologias">
+      <!-- <SectionContainer id="tecnologias">
         <TitleSection>
           <CodeIcon class="size-7" />
-          Tecnologías
+          Conocimientos
         </TitleSection>
         <Technologies />
+      </SectionContainer> -->
+
+      <SectionContainer id="Certificados">
+        <TitleSection>
+          <Certificated class="size-7" />
+          Certificados
+        </TitleSection>
+        <Certifications />
       </SectionContainer>
 
       <SectionContainer id="sobre-mi">
