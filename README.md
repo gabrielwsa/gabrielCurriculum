@@ -10,7 +10,7 @@
 
 ###
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,php,laravel,react,nodejs,express,bootstrap,postgres,mongodb,mysql,git,vscode,postman,docker)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,php,laravel,react,nodejs,bootstrap,postgres,mongodb,mysql,git,vscode,postman,docker)](https://skillicons.dev)
 
 ###
 
