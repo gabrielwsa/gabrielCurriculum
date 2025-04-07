@@ -2,14 +2,22 @@
 
 <script>
   class Particle {
-    constructor(x, y) {
+    x: number;
+    y: number;
+    size: number;
+    speedX: number;
+    speedY: number;
+    opacity: number;
+    color: string;
+
+    constructor(x: number, y: number) {
       this.x = x;
       this.y = y;
       this.size = Math.random() * 3 + 1;
       this.speedX = Math.random() * 2 - 1;
       this.speedY = Math.random() * 2 - 1;
       this.opacity = 0.5;
-      // Set initial color based on color scheme
+      this.color = '#000000'; // Initialize with default color
       this.updateColor();
     }
 
@@ -18,7 +26,7 @@
       this.color = isDarkMode ? '#ffffff' : '#000000';
     }
 
-    update(mouseX, mouseY) {
+    update(mouseX: number, mouseY: number) {
       // Move particle
       this.x += this.speedX;
       this.y += this.speedY;
@@ -39,7 +47,7 @@
       }
     }
 
-    draw(ctx) {
+    draw(ctx: CanvasRenderingContext2D) {
       ctx.fillStyle = this.color;
       ctx.globalAlpha = this.opacity;
       ctx.beginPath();
@@ -52,7 +60,7 @@
   const container = document.getElementById('particles-container');
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
-  let particles = [];
+  let particles: Particle[] = [];
   let mouseX = 0;
   let mouseY = 0;
 
